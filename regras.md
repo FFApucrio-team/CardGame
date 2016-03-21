@@ -22,26 +22,29 @@ O padrao eh ser o jogador com o maior tesouro no fim de X turnos.
 
 ### Area central
 Onde a acao de fato ocorre.
+
 A organizacao da area central depende da `fase do jogo`.(Ler secao *jogo*)
+
 ### Area do jogador
 Tudo que estiver nesta area eh visivel a todos os jogadores.
-    * contador de tesouro 
-    * items nao equipados 
-    * personagens e seus respectivos itens equipados
+* contador de tesouro 
+* items nao equipados 
+* personagens e seus respectivos itens equipados
 ### Mao do jogador
 O jogador pode revelar a mao (ou uma carta apenas)quando quiser, mas ela eh por default escondida.
-    * rumores
+* rumores
 
 ## Jogo:
 
 ### Tesouro inicial:
-    * 1 personagem ao acaso, nao importando requisitos
-    * 1 item inicial ao acaso
+* 1 personagem ao acaso, nao importando requisitos
+* 1 item inicial ao acaso
 
 O jogo se da em diversos turnos.
+
 Cada turno tem 2 fases:
-    * Cidade
-    * Aventura
+* Cidade
+* Aventura
 
 ### Cidade
 
